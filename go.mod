@@ -1,4 +1,4 @@
-module github.com/payly-solucoes-de-pagamentos/golang-messaging
+module github.com/raizen/golang-messaging
 
 go 1.19
 
