@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	logging "github.com/payly-solucoes-de-pagamentos/golang-logging"
 	amqp "github.com/rabbitmq/amqp091-go"
+	logging "github.com/raizen/golang-logging"
 )
 
 type IProducer interface {

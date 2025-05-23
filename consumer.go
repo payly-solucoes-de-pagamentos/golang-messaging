@@ -3,8 +3,8 @@ package messaging
 import (
 	"context"
 
-	logging "github.com/payly-solucoes-de-pagamentos/golang-logging"
 	amqp "github.com/rabbitmq/amqp091-go"
+	logging "github.com/raizen/golang-logging"
 )
 
 type OnMessageReceived func(ctx context.Context, message []byte)
