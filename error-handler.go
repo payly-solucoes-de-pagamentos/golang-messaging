@@ -1,6 +1,6 @@
 package messaging
 
-import logging "github.com/raizen/golang-logging"
+import logging "github.com/payly-solucoes-de-pagamentos/golang-logging"
 
 func failOnError(logger *logging.Logger, err error, message string) {
 	if err == nil {
